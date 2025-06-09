@@ -12,11 +12,13 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="Panel" Type="Folder">
+			<Item Name="Panel Create.lvlib" Type="Library" URL="../Panel Create/Panel Create.lvlib"/>
+			<Item Name="Panel.lvclass" Type="LVClass" URL="../Panel/Panel.lvclass"/>
+		</Item>
+		<Item Name="Pop Up.lvlib" Type="Library" URL="../Pop Up/Pop Up.lvlib"/>
 		<Item Name="Dev Actor.lvlib" Type="Library" URL="../Dev Actor/Dev Actor.lvlib"/>
-		<Item Name="Panel.lvclass" Type="LVClass" URL="../Panel/Panel.lvclass"/>
 		<Item Name="Dev Actor Panel.lvclass" Type="LVClass" URL="../Dev Actor Panel/Dev Actor Panel.lvclass"/>
-		<Item Name="State.lvclass" Type="LVClass" URL="../State/State.lvclass"/>
-		<Item Name="UEs.ctl" Type="VI" URL="../UEs.ctl"/>
 		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
@@ -56,6 +58,9 @@
 				<Item Name="DialogType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogType.ctl"/>
 				<Item Name="General Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler.vi"/>
 				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
+				<Item Name="Error.lvlib" Type="Library" URL="/&lt;vilib&gt;/jettl/jettl/Msgs/Error/Error.lvlib"/>
+				<Item Name="Get LV Class Name.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Name.vi"/>
+				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
