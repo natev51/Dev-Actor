@@ -16,10 +16,13 @@
 			<Item Name="Panel Create.lvlib" Type="Library" URL="../Panel Create/Panel Create.lvlib"/>
 			<Item Name="Panel.lvclass" Type="LVClass" URL="../Panel/Panel.lvclass"/>
 		</Item>
-		<Item Name="Pop Up.lvlib" Type="Library" URL="../Pop Up/Pop Up.lvlib"/>
+		<Item Name="Msg" Type="Folder">
+			<Item Name="Pop Up.lvlib" Type="Library" URL="../Pop Up/Pop Up.lvlib"/>
+		</Item>
 		<Item Name="Dev Actor.lvlib" Type="Library" URL="../Dev Actor/Dev Actor.lvlib"/>
 		<Item Name="Dev Actor Panel.lvclass" Type="LVClass" URL="../Dev Actor Panel/Dev Actor Panel.lvclass"/>
 		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
+		<Item Name="Launch.vi" Type="VI" URL="../Launch.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
