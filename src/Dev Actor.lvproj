@@ -24,12 +24,7 @@
 		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
-				<Item Name="jettl.lvlib" Type="Library" URL="/&lt;vilib&gt;/jettl/jettl/jettl/jettl.lvlib"/>
-				<Item Name="Actor Last Ack.lvlib" Type="Library" URL="/&lt;vilib&gt;/jettl/jettl/Msgs/Actor Last Ack/Actor Last Ack.lvlib"/>
-				<Item Name="Actor Create.lvlib" Type="Library" URL="/&lt;vilib&gt;/jettl/jettl/Msgs/Actor Create/Actor Create.lvlib"/>
-				<Item Name="Actor Destroy.lvlib" Type="Library" URL="/&lt;vilib&gt;/jettl/jettl/Msgs/Actor Destroy/Actor Destroy.lvlib"/>
 				<Item Name="Casting Utility For Actors.vim" Type="VI" URL="/&lt;vilib&gt;/ActorFramework/Actor/Casting Utility For Actors.vim"/>
-				<Item Name="Error.lvlib" Type="Library" URL="/&lt;vilib&gt;/jettl/jettl/Msgs/Error/Error.lvlib"/>
 				<Item Name="Get LV Class Name.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Name.vi"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
@@ -63,6 +58,13 @@
 				<Item Name="DialogType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogType.ctl"/>
 				<Item Name="General Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler.vi"/>
 				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
+				<Item Name="Actor.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/jettl/jettl/Actor/Actor/Actor.lvclass"/>
+				<Item Name="Msg.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/jettl/jettl/Actor/Msg/Msg.lvclass"/>
+				<Item Name="Create.lvlib" Type="Library" URL="/&lt;vilib&gt;/jettl/jettl/Actor/Msgs/Create/Create.lvlib"/>
+				<Item Name="Destroy.lvlib" Type="Library" URL="/&lt;vilib&gt;/jettl/jettl/Actor/Msgs/Destroy/Destroy.lvlib"/>
+				<Item Name="Last Ack.lvlib" Type="Library" URL="/&lt;vilib&gt;/jettl/jettl/Actor/Msgs/Last Ack/Last Ack.lvlib"/>
+				<Item Name="Set Error.lvlib" Type="Library" URL="/&lt;vilib&gt;/jettl/jettl/Actor/Msgs/Set Error/Set Error.lvlib"/>
+				<Item Name="jettl.lvlib" Type="Library" URL="/&lt;vilib&gt;/jettl/jettl/jettl/jettl.lvlib"/>
 			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
