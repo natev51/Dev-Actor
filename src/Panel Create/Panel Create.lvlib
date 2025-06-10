@@ -6,5 +6,5 @@
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="NI.SortType" Type="Int">3</Property>
 	<Item Name="Panel Create.lvclass" Type="LVClass" URL="../Panel Create/Panel Create.lvclass"/>
-	<Item Name="Panel Create Msg Strategy.lvclass" Type="LVClass" URL="../Panel Create Msg Strategy/Panel Create Msg Strategy.lvclass"/>
+	<Item Name="Panel Create Msg.lvclass" Type="LVClass" URL="../Panel Create Msg/Panel Create Msg.lvclass"/>
 </Library>

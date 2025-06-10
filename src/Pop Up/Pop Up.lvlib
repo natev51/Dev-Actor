@@ -6,5 +6,5 @@
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="NI.SortType" Type="Int">3</Property>
 	<Item Name="Pop Up.lvclass" Type="LVClass" URL="../Pop Up/Pop Up.lvclass"/>
-	<Item Name="Pop Up Msg Strategy.lvclass" Type="LVClass" URL="../Pop Up Msg Strategy/Pop Up Msg Strategy.lvclass"/>
+	<Item Name="Pop Up Msg.lvclass" Type="LVClass" URL="../Pop Up Msg/Pop Up Msg.lvclass"/>
 </Library>
