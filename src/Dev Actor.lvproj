@@ -15,15 +15,16 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Helper Loop" Type="Folder">
-			<Item Name="Helper Loop.lvclass" Type="LVClass" URL="../Helper Loop/Helper Loop.lvclass"/>
+			<Item Name="Helper Loop.lvclass" Type="LVClass" URL="../Helper Loop/Helper Loop/Helper Loop.lvclass"/>
+			<Item Name="Helper Loop Create.lvlib" Type="Library" URL="../Helper Loop/Msgs/Helper Loop Create/Helper Loop Create.lvlib"/>
 		</Item>
 		<Item Name="Msgs" Type="Folder">
 			<Item Name="Pop Up.lvlib" Type="Library" URL="../Msgs/Pop Up/Pop Up.lvlib"/>
-			<Item Name="Panel Create.lvlib" Type="Library" URL="../Msgs/Panel Create/Panel Create.lvlib"/>
 		</Item>
 		<Item Name="Dev Actor.lvlib" Type="Library" URL="../Dev Actor/Dev Actor.lvlib"/>
 		<Item Name="Dev Panel.lvclass" Type="LVClass" URL="../Dev Panel/Dev Panel.lvclass"/>
 		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
+		<Item Name="Dev Actor Events.ctl" Type="VI" URL="../Dev Actor Events.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Casting Utility For Actors.vim" Type="VI" URL="/&lt;vilib&gt;/ActorFramework/Actor/Casting Utility For Actors.vim"/>

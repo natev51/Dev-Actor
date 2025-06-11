@@ -5,6 +5,6 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="NI.SortType" Type="Int">3</Property>
-	<Item Name="Panel Create.lvclass" Type="LVClass" URL="../Panel Create/Panel Create.lvclass"/>
-	<Item Name="Panel Create Msg.lvclass" Type="LVClass" URL="../Panel Create Msg/Panel Create Msg.lvclass"/>
+	<Item Name="Helper Loop Create.lvclass" Type="LVClass" URL="../Helper Loop Create/Helper Loop Create.lvclass"/>
+	<Item Name="Helper Loop Create Msg.lvclass" Type="LVClass" URL="../Helper Loop Create Msg/Helper Loop Create Msg.lvclass"/>
 </Library>
