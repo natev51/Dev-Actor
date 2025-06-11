@@ -17,9 +17,9 @@
 		<Item Name="Helper Loop" Type="Folder">
 			<Item Name="Helper Loop.lvclass" Type="LVClass" URL="../Helper Loop/Helper Loop.lvclass"/>
 		</Item>
-		<Item Name="Msg" Type="Folder">
-			<Item Name="Pop Up.lvlib" Type="Library" URL="../Pop Up/Pop Up.lvlib"/>
-			<Item Name="Panel Create.lvlib" Type="Library" URL="../Panel Create/Panel Create.lvlib"/>
+		<Item Name="Msgs" Type="Folder">
+			<Item Name="Pop Up.lvlib" Type="Library" URL="../Msgs/Pop Up/Pop Up.lvlib"/>
+			<Item Name="Panel Create.lvlib" Type="Library" URL="../Msgs/Panel Create/Panel Create.lvlib"/>
 		</Item>
 		<Item Name="Dev Actor.lvlib" Type="Library" URL="../Dev Actor/Dev Actor.lvlib"/>
 		<Item Name="Dev Panel.lvclass" Type="LVClass" URL="../Dev Panel/Dev Panel.lvclass"/>
