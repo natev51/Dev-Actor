@@ -14,18 +14,14 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="Panel" Type="Folder">
-			<Item Name="Msg" Type="Folder">
-				<Item Name="Panel Create.lvlib" Type="Library" URL="../Panel Create/Panel Create.lvlib"/>
-			</Item>
-			<Item Name="Panel.lvclass" Type="LVClass" URL="../Panel/Panel.lvclass"/>
-		</Item>
 		<Item Name="Msg" Type="Folder">
 			<Item Name="Pop Up.lvlib" Type="Library" URL="../Pop Up/Pop Up.lvlib"/>
+			<Item Name="Panel Create.lvlib" Type="Library" URL="../Panel Create/Panel Create.lvlib"/>
 		</Item>
 		<Item Name="Dev Actor.lvlib" Type="Library" URL="../Dev Actor/Dev Actor.lvlib"/>
-		<Item Name="Dev Actor Panel.lvclass" Type="LVClass" URL="../Dev Actor Panel/Dev Actor Panel.lvclass"/>
+		<Item Name="Dev Panel.lvclass" Type="LVClass" URL="../Dev Panel/Dev Panel.lvclass"/>
 		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
+		<Item Name="Helper Loop.lvclass" Type="LVClass" URL="../Helper Loop/Helper Loop.lvclass"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Casting Utility For Actors.vim" Type="VI" URL="/&lt;vilib&gt;/ActorFramework/Actor/Casting Utility For Actors.vim"/>
