@@ -67,8 +67,9 @@
 				<Item Name="Create.lvlib" Type="Library" URL="/&lt;vilib&gt;/jettl/jettl/Actor/Msgs/Create/Create.lvlib"/>
 				<Item Name="Destroy.lvlib" Type="Library" URL="/&lt;vilib&gt;/jettl/jettl/Actor/Msgs/Destroy/Destroy.lvlib"/>
 				<Item Name="Last Ack.lvlib" Type="Library" URL="/&lt;vilib&gt;/jettl/jettl/Actor/Msgs/Last Ack/Last Ack.lvlib"/>
-				<Item Name="Set Error.lvlib" Type="Library" URL="/&lt;vilib&gt;/jettl/jettl/Actor/Msgs/Set Error/Set Error.lvlib"/>
 				<Item Name="jettl.lvlib" Type="Library" URL="/&lt;vilib&gt;/jettl/jettl/jettl/jettl.lvlib"/>
+				<Item Name="Merge Error.lvlib" Type="Library" URL="/&lt;vilib&gt;/jettl/jettl/Actor/Msgs/Merge Error/Merge Error.lvlib"/>
+				<Item Name="Override Error.lvlib" Type="Library" URL="/&lt;vilib&gt;/jettl/jettl/Actor/Msgs/Override Error/Override Error.lvlib"/>
 			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
