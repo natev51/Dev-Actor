@@ -25,6 +25,7 @@
 		<Item Name="Dev Panel.lvclass" Type="LVClass" URL="../Dev Panel/Dev Panel.lvclass"/>
 		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
 		<Item Name="Dev Actor Events.ctl" Type="VI" URL="../Dev Actor Events.ctl"/>
+		<Item Name="Dev Actor Refs.ctl" Type="VI" URL="../Dev Actor Refs.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Casting Utility For Actors.vim" Type="VI" URL="/&lt;vilib&gt;/ActorFramework/Actor/Casting Utility For Actors.vim"/>
