@@ -24,8 +24,6 @@
 		<Item Name="Dev Actor.lvlib" Type="Library" URL="../Dev Actor/Dev Actor.lvlib"/>
 		<Item Name="Dev Panel.lvclass" Type="LVClass" URL="../Dev Panel/Dev Panel.lvclass"/>
 		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
-		<Item Name="Dev Actor Events.ctl" Type="VI" URL="../Dev Actor Events.ctl"/>
-		<Item Name="Dev Actor Refs.ctl" Type="VI" URL="../Dev Actor Refs.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Casting Utility For Actors.vim" Type="VI" URL="/&lt;vilib&gt;/ActorFramework/Actor/Casting Utility For Actors.vim"/>
@@ -71,6 +69,8 @@
 				<Item Name="Override Error.lvlib" Type="Library" URL="/&lt;vilib&gt;/jettl/jettl/Actor/Msgs/Override Error/Override Error.lvlib"/>
 				<Item Name="Teardown.lvlib" Type="Library" URL="/&lt;vilib&gt;/jettl/jettl/Actor/Msgs/Teardown/Teardown.lvlib"/>
 			</Item>
+			<Item Name="Dev Actor Events.ctl" Type="VI" URL="../Dev Actor Events.ctl"/>
+			<Item Name="Dev Actor Refs.ctl" Type="VI" URL="../Dev Actor Refs.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
