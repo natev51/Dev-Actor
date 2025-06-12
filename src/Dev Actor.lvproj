@@ -69,8 +69,6 @@
 				<Item Name="Override Error.lvlib" Type="Library" URL="/&lt;vilib&gt;/jettl/jettl/Actor/Msgs/Override Error/Override Error.lvlib"/>
 				<Item Name="Teardown.lvlib" Type="Library" URL="/&lt;vilib&gt;/jettl/jettl/Actor/Msgs/Teardown/Teardown.lvlib"/>
 			</Item>
-			<Item Name="Dev Actor Events.ctl" Type="VI" URL="../Dev Actor Events.ctl"/>
-			<Item Name="Dev Actor Refs.ctl" Type="VI" URL="../Dev Actor Refs.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
