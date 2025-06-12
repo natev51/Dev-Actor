@@ -16,6 +16,7 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Helper Loop" Type="Folder">
 			<Item Name="Helper Loop.lvclass" Type="LVClass" URL="../Helper Loop/Helper Loop/Helper Loop.lvclass"/>
+			<Item Name="Helper Loop Refs.lvclass" Type="LVClass" URL="../Helper Loop/Helper Loop Refs/Helper Loop Refs.lvclass"/>
 			<Item Name="Helper Loop Create.lvlib" Type="Library" URL="../Helper Loop/Msgs/Helper Loop Create/Helper Loop Create.lvlib"/>
 		</Item>
 		<Item Name="Msgs" Type="Folder">
@@ -24,6 +25,7 @@
 		<Item Name="Dev Actor.lvlib" Type="Library" URL="../Dev Actor/Dev Actor.lvlib"/>
 		<Item Name="Dev Panel.lvclass" Type="LVClass" URL="../Dev Panel/Dev Panel.lvclass"/>
 		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
+		<Item Name="Dev Panel Refs.lvclass" Type="LVClass" URL="../Dev Panel Refs/Dev Panel Refs.lvclass"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Casting Utility For Actors.vim" Type="VI" URL="/&lt;vilib&gt;/ActorFramework/Actor/Casting Utility For Actors.vim"/>
