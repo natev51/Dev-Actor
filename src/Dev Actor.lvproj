@@ -68,6 +68,7 @@
 				<Item Name="Merge Error.lvlib" Type="Library" URL="/&lt;vilib&gt;/jettl/jettl/Actor/Msgs/Merge Error/Merge Error.lvlib"/>
 				<Item Name="Override Error.lvlib" Type="Library" URL="/&lt;vilib&gt;/jettl/jettl/Actor/Msgs/Override Error/Override Error.lvlib"/>
 				<Item Name="Teardown.lvlib" Type="Library" URL="/&lt;vilib&gt;/jettl/jettl/Actor/Msgs/Teardown/Teardown.lvlib"/>
+				<Item Name="RGB to Color.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/colorconv.llb/RGB to Color.vi"/>
 			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
